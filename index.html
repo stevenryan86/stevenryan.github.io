@@ -3,155 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steven P. Ryan - PhD Candidate, University of Toronto</title>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
-    <style>
-    body {
-        font-family: 'Josefin Sans', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #d2b48c;
-        color: black;
-    }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0rem;
-        }
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 400;
-            margin: 0;
-        }
-        nav {
-            font-size: 1.125rem;
-        }
-        nav a {
-            color: black;
-            margin-left: 1rem;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .main {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 3rem;
-        }
-        .main .profile-image {
-            width: auto;
-            height: 400px;
-            max-width: 100%;
-            border-radius: 2px;
-        }
-        .main .content {
-            width: 60%;
-            margin-left: 10%;
-        }
-        .content h2 {
-            font-size: 2rem;
-            margin: 3rem 0 1.5rem 0;
-        }
-            h2 {
-        font-weight: 500; /* make the bold black text less thick */
-    }
-        .content p {
-            font-size: 1.125rem;
-            line-height: 1.6;
-            margin-top: 0.5rem;
-        }
-    .top-line {
-        width: 100%;
-        height: 2px; /* make the underline thicker */
-        background-color:  #8b0000; /* set the underline color to red */
-        margin-bottom: 3rem;
-    }
-        /* Dropdown menu styles */
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            z-index: 1;
-        }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        .dropdown-content a {
-            color: black;
-            text-decoration: none;
-            display: block;
-            padding: 0.5rem;
-            background-color: #f2f2f2;
-        }
-        .dropdown-content a:hover {
-            background-color: #ccc;
-        }
-    </style>
+    <title>Steven P. Ryan - Academic Economist</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Steven P. Ryan</h1>
-            <nav>
-                <a href="#about">About</a>
-                <div class="dropdown">
-                    <a href="#research">Research</a>
-                    <div class="dropdown-content">
-                        <a href="#pub1">Publications</a>
-                        <a href="#wp1">Working Papers</a>
-                        <a href="#wip1">Work in Progress</a>
-                    </div>
-                </div>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
-        <div class="top-line"></div>
-        <section class="main">
-              <img src="https://as2.ftcdn.net/v2/jpg/02/23/09/59/1000_F_223095982_nNQW2s1qfAJHMQmE4w1hG5ywvCGAJfMw.jpg" alt="Steven P. Ryan" class="profile-image">
-            <div class="content">
-                <h2>About</h2>
-                <p>
-                    Steven P. Ryan is a PhD candidate in Economics at the University of Toronto. His research focuses on macroeconomics, monetary policy, and international trade. Steven is dedicated to exploring the interplay between economic policies and global markets, aiming to contribute to the understanding of economic growth and financial stability.
-                </p>
-                <h2>Publications</h2>
-<p>
-    <a href="#pub1">Title of Paper One</a><br>
-    <a href="#pub2">Title of Paper Two</a><br>
-    <a href="#pub3">Title of Paper Three</a><br>
-    <a href="#pub4">Title of Paper Four</a><br>
-</p>
-<h2>Working Papers</h2>
-<p>
-    <a href="#wp1">Title of Working Paper One</a><br>
-    <a href="#wp2">Title of Working Paper Two</a><br>
-    <a href="#wp3">Title of Working Paper Three</a><br>
-</p>
-<h2>Work in Progress</h2>
-<p>
-    <a href="#wip1">Title of Work in Progress One</a><br>
-    <a href="#wip2">Title of Work in Progress Two</a><br>
-    <a href="#wip3">Title of Work in Progress Three</a><br>
-</p>
-        </div>
-    </section>
+    <header>
+        <h1>Steven P. Ryan</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#research">Research</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Steven P. Ryan is an academic economist with expertise in...</p>
+        </section>
+        <section id="research">
+            <h2>Research</h2>
+            <ul>
+                <li><a href="paper1.pdf">Paper 1 Title</a></li>
+                <li><a href="paper2.pdf">Paper 2 Title</a></li>
+                <li><a href="paper3.pdf">Paper 3 Title</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: steven.p.ryan@university.edu</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </section>
+    </main>
     <footer>
-        <h2>Contact</h2>
-        <p>
-            Email: stevenpryan@utoronto.ca<br>
-            Address: Department of Economics, University of Toronto, 150 St. George Street, Toronto, ON M5S 3G7, Canada<br>
-            Phone: +1 (416) 123-4567
-        </p>
+        <p>&copy; 2023 Steven P. Ryan. All rights reserved.</p>
     </footer>
-</div>
-                   
+</body>
+</html>
